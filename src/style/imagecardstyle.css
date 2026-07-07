@@ -1,0 +1,32 @@
+.image-container{
+    position: relative;
+    width: 200px;
+    margin: 10px;
+}
+
+.imagecard{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+}
+
+.view-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.image-container:hover .view-btn{
+    opacity: 0.8;
+}
